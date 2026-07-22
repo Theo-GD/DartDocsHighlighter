@@ -1,0 +1,146 @@
+/*
+ Material Theme inspired palette
+*/
+
+
+pre code.language-dart {
+    background: transparent !important;
+    text-shadow: none !important;
+}
+
+
+/* Keywords */
+
+.hljs-keyword {
+    color: #c792ea !important;
+}
+
+
+/* Built in Dart types */
+
+.hljs-built_in {
+    color: #82aaff !important;
+}
+
+
+/* User classes/types */
+
+.dart-class {
+    color: #82aaff !important;
+}
+
+
+
+/* Functions */
+
+.dart-function {
+    color: #c3e88d !important;
+}
+
+
+/* Methods */
+
+.dart-method {
+    color: #c3e88d !important;
+}
+
+
+/* Properties */
+
+.dart-property {
+    color: #f78c6c !important;
+}
+
+
+/* Variables */
+
+.hljs-variable {
+    color: #f07178 !important;
+}
+
+
+/* Parameters */
+
+.hljs-params {
+    color: #89ddff !important;
+}
+
+
+
+/* Strings */
+
+.hljs-string {
+    color: #c3e88d !important;
+}
+
+
+/* Numbers */
+
+.hljs-number {
+    color: #f78c6c !important;
+}
+
+
+/* Comments */
+
+.hljs-comment {
+    color: #546e7a !important;
+    font-style: italic;
+}
+
+
+/* Annotations */
+
+.hljs-meta {
+    color: #ffcb6b !important;
+}
+
+
+
+/*
+ Rainbow brackets
+
+ Yellow
+ Purple/Pink
+ Blue
+*/
+
+.bracket-1 {
+    color: #ffcb6b !important;
+}
+
+
+.bracket-2 {
+    color: #c792ea !important;
+}
+
+
+.bracket-3 {
+    color: #82aaff !important;
+}
+
+
+/* Restore DartDoc default background */
+
+pre,
+pre code,
+pre code.language-dart,
+code.language-dart.hljs {
+    background: transparent !important;
+    background-color: inherit !important;
+    color: inherit;
+    text-shadow: none !important;
+}
+
+
+/* Remove Highlight.js default block styling */
+.hljs {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+
+/* Keep DartDoc code spacing/formatting */
+pre {
+    background: inherit !important;
+}
