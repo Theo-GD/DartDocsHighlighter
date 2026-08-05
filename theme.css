@@ -1,32 +1,30 @@
-/*
- Material Theme inspired palette
-*/
-
-
 pre code.language-dart {
     background: transparent !important;
     text-shadow: none !important;
 }
 
+code.language-dart.hljs {
+    color: #E4E6E9 !important;
+}
 
 /* Keywords */
 
 .hljs-keyword {
-    color: #c792ea !important;
+    color: #D55FDE !important;
 }
 
 
 /* Built in Dart types */
 
 .hljs-built_in {
-    color: #82aaff !important;
+    color: #E5C07B !important;
 }
 
 
 /* User classes/types */
 
 .dart-class {
-    color: #82aaff !important;
+    color: #E5C07B !important;
 }
 
 
@@ -34,35 +32,35 @@ pre code.language-dart {
 /* Functions */
 
 .dart-function {
-    color: #c3e88d !important;
+    color: #61AFEF !important;
 }
 
 
 /* Methods */
 
 .dart-method {
-    color: #c3e88d !important;
+    color: #61AFEF !important;
 }
 
 
 /* Properties */
 
 .dart-property {
-    color: #f78c6c !important;
+    color: #E4E6E9 !important;
 }
 
 
 /* Variables */
 
 .hljs-variable {
-    color: #f07178 !important;
+    color: #E5C07B !important;
 }
 
 
 /* Parameters */
 
 .hljs-params {
-    color: #89ddff !important;
+    color: #89DDFF !important;
 }
 
 
@@ -70,21 +68,21 @@ pre code.language-dart {
 /* Strings */
 
 .hljs-string {
-    color: #c3e88d !important;
+    color: #C3E88D !important;
 }
 
 
 /* Numbers */
 
 .hljs-number {
-    color: #f78c6c !important;
+    color: #D19A66 !important;
 }
 
 
 /* Comments */
 
 .hljs-comment {
-    color: #546e7a !important;
+    color: #546E7A !important;
     font-style: italic;
 }
 
@@ -92,7 +90,7 @@ pre code.language-dart {
 /* Annotations */
 
 .hljs-meta {
-    color: #ffcb6b !important;
+    color: #E5C07B !important; 
 }
 
 
@@ -106,17 +104,17 @@ pre code.language-dart {
 */
 
 .bracket-1 {
-    color: #ffcb6b !important;
+    color: #E5A658 !important;
 }
 
 
 .bracket-2 {
-    color: #c792ea !important;
+    color: #BD78BC !important;
 }
 
 
 .bracket-3 {
-    color: #82aaff !important;
+    color: #3085B9 !important;
 }
 
 
@@ -128,7 +126,6 @@ pre code.language-dart,
 code.language-dart.hljs {
     background: transparent !important;
     background-color: inherit !important;
-    color: inherit;
     text-shadow: none !important;
 }
 
