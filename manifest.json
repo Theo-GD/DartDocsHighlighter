@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Flutter Doc Custom Syntax Highlighter",
+  "name": "Dart Docs Highlighter",
   "version": "2.0",
-  "description": "Injects an authentic syntax highlighter into unstyled Dart documentation pages.",
+  "description": "Injects a syntax highlighter into unstyled Dart documentation pages.",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
